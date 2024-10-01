@@ -1,6 +1,7 @@
 import styles from "./Portfolio.module.css";
 import { motion } from "framer-motion";
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { AiFillEye } from "react-icons/ai";
+import { ImPinterest2 } from "react-icons/im";
 
 const PortfolioItem = ({ filterWork }) => {
 
@@ -24,7 +25,7 @@ const PortfolioItem = ({ filterWork }) => {
               <ul>
                 <li>
                   <a href={item.gitLink} target="_blank" rel="noreferrer">
-                    <AiFillGithub />
+                    <ImPinterest2 />
                   </a>
                 </li>
                 <li>

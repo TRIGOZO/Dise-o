@@ -1,0 +1,68 @@
+
+export const TRANSLATIONS_QH = {
+  name: "Yon Frank Trigozo Blacido",
+
+  home: "Qhawarina",
+  aboutme: "Ñuqa tiyaqmi",
+  resume: "Kamachiy",
+  portfolios: "Llank'aykuna",
+  contact: "Tinkuy",
+
+  age: "Wata",
+  dob: "Paqarin p'unchay",
+  dobA: "17/01/2002",
+  address: "Wasiy",
+  addressA: "Peru, Huánuco",
+  email: "Kanchasqa willay",
+
+  aboutmeTwo: "Ñuqa Huánuqupi tiyasaqmi, web llank’aq. Kayta yachachinaypaq tiyaqmi, ordonqo, kamachikuq, hina Juan Bosco Yachay Wasi Huánuqupi tukuqmi. Kunayman ñawpaq p’unchaypi interfacekunaq llank’anakunata yachachikuyta yachaqniyqam.",
+  mySkills: "Yachaykuna",
+  languages: "Simiyniykuna",
+  español: "Runa Simi",
+  english: "Inlis Simi",
+  korean: "Korea Simi",
+
+  resumeTwo: "Kamachiy",
+  education: "Yachay",
+  educationYear: "2021 - 2023",
+  educationTitle: "Yachay Wasiq Yachay",
+  educationText: "Juan Bosco Yachay Wasi Huánuqupi, Sistema yachaykuna",
+  educationYearTwo: "2014 - 2018",
+  educationTitleTwo: "Yachay Wasi",
+  educationTextTwo: "Yachay Rurasqa Kawsaypi",
+
+  experience: "Ruraykuna",
+  experienceYear: "2024",
+  experienceTitle: "Web Ruray",
+  experienceText: "2024 watapi, web ruraq kawsaykunata yachayniyta qallarirqani.",
+  experienceYearTwo: "2022",
+  experienceTitleTwo: "Diseñador y Fotógrafo",
+  experienceTextTwo: "2022 watapi, Amarilis llaqta munayman llank’anakuy purinqani.",
+  experienceYearThree: "2022",
+  experienceTitleThree: "UI",
+  experienceTextThree: "Kunayman, interfacekunata yachaqniyqam.",
+
+  contactTwo: "Tinkuy",
+  getInTouch: "Ñuqamanta willaykuy",
+  findMe: "Maypi kani",
+  teharnIran: "Huánuco, Perú",
+  mailMe: "Willayta kutichiy",
+  emailTwo: "yontrigozoblacido@gmail.com",
+  callMe: "Upyaykuy",
+  phoneNum: "946-155-005",
+
+  contactForm: "Willayta churay",
+  nameInp: "Suti",
+  messageInp: "Willay",
+  submitBtn: "Kusikuy",
+
+  errorNameOne: "Sutiyta churay",
+  errorNameTwo: "Sutiyqa iskay qillqakunatam mana atipaq",
+  errorEmailOne: "Kanchasqa willayqa churay",
+  errorEmailTwo: "Mana allin kanchasqa willay",
+  errorMessageOne: "Willayqa churay",
+  errorMessageTwo: "Willayqa mana allin",
+
+  toastSucc: "Willayqa allinta churasaqmi 👍",
+  toastErr: "Manaraq churayta atini ❌",
+};

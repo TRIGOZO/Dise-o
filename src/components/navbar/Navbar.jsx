@@ -4,9 +4,9 @@ import { t } from "i18next";
 
 import styled from "styled-components";
 import styles from "./Navbar.module.css";
-import { ImCodepen, ImLinkedin2 } from "react-icons/im";
+import {ImPinterest2,ImFacebook ,ImWhatsapp} from "react-icons/im";
 
-import { BsGithub, BsTelegram, BsInstagram } from "react-icons/bs";
+import { BsTelegram, BsInstagram } from "react-icons/bs";
 import { useMediaQuery } from "react-responsive";
 import DarkMood from "../../common/DarkMood";
 
@@ -56,7 +56,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <figure className={styles.profile}>
               <img
-                src="https://i.postimg.cc/dt0mXYTx/avatar.jpg"
+                src="https://z-p3-scontent.flim4-2.fna.fbcdn.net/v/t39.30808-6/305278550_3250517231887618_4186015003750690835_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFCo9hKaTBmeEcikR-0PfiHd9xI92pe_Dx33Ej3al78PKVh4HEF3-M960rTgBTNlyCRhsJasgG7JwkAVF-Sg74E&_nc_ohc=C6FD5CwR7_oQ7kNvgE0V4qR&_nc_zt=23&_nc_ht=z-p3-scontent.flim4-2.fna&_nc_gid=A-QxXVW72m0_DPaXVPbzmX7&oh=00_AYCjfEsqANQmrQqhsUkrN7sqRxf0Jbuh79skitRKgiQMNQ&oe=66F940E5"
                 alt="profile"
               />
             </figure>
@@ -64,14 +64,14 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <ul className={styles.socials}>
               <li>
-                <a href="https://t.me/mfghir" target="_blank" rel="noreferrer">
+                <a href="https://t.me/trigozodev" target="_blank" rel="noreferrer">
                   <BsTelegram />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://www.instagram.com/mfgh.ir/"
+                  href="https://www.instagram.com/trigozodev/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -81,31 +81,31 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://www.linkedin.com/in/fateme-ghafari"
+                  href="https://www.pinterest.com/trigozodev"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <ImLinkedin2 />
+                  <ImPinterest2 />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://github.com/mfghir"
+                  href="https://github.com/trigozo"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <BsGithub />
+                  <ImWhatsapp />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://codepen.io/miss_f_g/"
+                  href="https://web.facebook.com/TRIGOZODEV"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <ImCodepen />
+                  <ImFacebook />
                 </a>
               </li>
             </ul>
@@ -155,9 +155,9 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick} />
+              <button value="qh" onClick={handleOnclick} />
               <button value="en" onClick={handleOnclick} />
-              <button value="ko" onClick={handleOnclick} />
+              <button value="es" onClick={handleOnclick} />
             </div>
           </nav>
         ) : (
@@ -172,7 +172,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <figure className={styles.profile}>
               <img
-                src="https://i.postimg.cc/dt0mXYTx/avatar.jpg"
+                src="https://z-p3-scontent.flim4-2.fna.fbcdn.net/v/t39.30808-6/305278550_3250517231887618_4186015003750690835_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFCo9hKaTBmeEcikR-0PfiHd9xI92pe_Dx33Ej3al78PKVh4HEF3-M960rTgBTNlyCRhsJasgG7JwkAVF-Sg74E&_nc_ohc=C6FD5CwR7_oQ7kNvgE0V4qR&_nc_zt=23&_nc_ht=z-p3-scontent.flim4-2.fna&_nc_gid=A-QxXVW72m0_DPaXVPbzmX7&oh=00_AYCjfEsqANQmrQqhsUkrN7sqRxf0Jbuh79skitRKgiQMNQ&oe=66F940E5"
                 alt="profile"
               />
             </figure>
@@ -180,14 +180,14 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <ul className={styles.socials}>
               <li>
-                <a href="https://t.me/fatemeweb" target="_blank" rel="noreferrer">
+                <a href="https://t.me/trigozodev" target="_blank" rel="noreferrer">
                   <BsTelegram />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://www.instagram.com/fatemeweb/"
+                  href="https://www.instagram.com/trigozodev/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -197,30 +197,30 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://www.linkedin.com/in/fateme-ghafari"
+                  href="https://www.pinterest.com/trigozodev"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <ImLinkedin2 />
+                  <ImPinterest2 />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://github.com/mfghir"
+                  href="https://github.com/trigozo"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <BsGithub />
+                  <ImWhatsapp />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://codepen.io/miss_f_g/"
+                  href="https://codepen.io//"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <ImCodepen />
+                  <ImFacebook />
                 </a>
               </li>
             </ul>
@@ -270,9 +270,9 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick}></button>
+              <button value="qh" onClick={handleOnclick}></button>
               <button value="en" onClick={handleOnclick}></button>
-              <button value="ko" onClick={handleOnclick}></button>
+              <button value="es" onClick={handleOnclick}></button>
             </div>
           </nav>
         )}

@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
     <div className={`home ${styles.home}`}>
-      <img src="https://i.postimg.cc/G2rvjwCz/home.jpg" alt="home" />
+      <img src="https://images.pexels.com/photos/13791403/pexels-photo-13791403.jpeg" alt="home" />
 
       <h1>
         <Typewriter
@@ -22,7 +22,7 @@ const Home = () => {
 
       <ul>
         <li>
-          <span>{t("age")}:</span> 24
+          <span>{t("age")}:</span> 22
         </li>
         <li>
           <span>{t("dob")}:</span> {t("dobA")}

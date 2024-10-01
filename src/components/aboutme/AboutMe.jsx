@@ -14,7 +14,7 @@ const AboutMe = () => {
       transition={{ duration: 0.8 }}
     >
       <section className={`aboutme ${styles.aboutme}`}>
-        <img src="https://i.postimg.cc/vHSLwNrH/aboutme.jpg" alt="aboutme" />
+        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="aboutme" />
         <p>{t("aboutmeTwo")}</p>
 
         <div className={styles.sl}>
@@ -25,29 +25,7 @@ const AboutMe = () => {
             </article>
 
             <div>
-              <span>HTML</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>CSS</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>SASS</span>
+              <span>Diseño de publicidad</span>
               <ul>
                 <li></li>
                 <li></li>
@@ -58,29 +36,7 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>Tailwind</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>Responsive</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>JavaScript</span>
+              <span>Diseño editorial</span>
               <ul>
                 <li></li>
                 <li></li>
@@ -91,29 +47,7 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>React</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>Redux</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>React Native</span>
+              <span>Diseño de ilustraciones</span>
               <ul>
                 <li></li>
                 <li></li>
@@ -124,7 +58,73 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>Git</span>
+              <span>Animación y multimedia</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>Diseño web</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>Comunicación visual</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>Logo personal</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>Tarjeta presentacion</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>Diseño de empaques</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>Diseño UI</span>
               <ul>
                 <li></li>
                 <li></li>
@@ -135,11 +135,11 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>GraphQL</span>
+              <span>Fotografo</span>
               <ul>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
+                <li></li>
                 <li className={styles.false}></li>
                 <li className={styles.false}></li>
               </ul>
@@ -148,23 +148,12 @@ const AboutMe = () => {
 
           <section className={styles.languages}>
             <article className="title">
-              <h4>{t("languages")}</h4>
+              <h4>{t("Program")}</h4>
               <img src={zigzag} alt="zigzag" />
             </article>
 
             <div>
-              <span>{t("farsi")}</span>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-
-            <div>
-              <span>{t("english")}</span>
+              <span>{t("Photoshop")}</span>
               <ul>
                 <li></li>
                 <li></li>
@@ -175,10 +164,43 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>{t("korean")}</span>
+              <span>{t("Canva")}</span>
               <ul>
                 <li></li>
+                <li></li>
+                <li></li>
                 <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>{t("Ilustrator")}</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>{t("Capcut")}</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+
+            <div>
+              <span>{t("Figma")}</span>
+              <ul>
+                <li></li>
+                <li></li>
                 <li className={styles.false}></li>
                 <li className={styles.false}></li>
                 <li className={styles.false}></li>
