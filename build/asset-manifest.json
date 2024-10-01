@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/diseno/build/static/css/main.6aee88ad.css",
+    "main.js": "/diseno/build/static/js/main.4d700ccd.js",
+    "static/media/favicon.ico": "/diseno/build/static/media/favicon.6e4e66a79fe1e2f8a401.ico",
+    "static/media/usa-flag.svg": "/diseno/build/static/media/usa-flag.d091fc0cf62288ed7938.svg",
+    "static/media/korea-flag.svg": "/diseno/build/static/media/korea-flag.3ef985302940884c4324.svg",
+    "index.html": "/diseno/build/index.html",
+    "static/media/zigzag.svg": "/diseno/build/static/media/zigzag.0aceb043f6247bfe95ed47db9b7f3fcf.svg",
+    "static/media/iran-flag.svg": "/diseno/build/static/media/iran-flag.7dc82861e6791c9b0306.svg",
+    "main.6aee88ad.css.map": "/diseno/build/static/css/main.6aee88ad.css.map",
+    "main.4d700ccd.js.map": "/diseno/build/static/js/main.4d700ccd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aee88ad.css",
+    "static/js/main.4d700ccd.js"
+  ]
+}
