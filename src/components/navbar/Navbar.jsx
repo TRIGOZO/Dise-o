@@ -56,7 +56,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <figure className={styles.profile}>
               <img
-                src="https://z-p3-scontent.flim4-2.fna.fbcdn.net/v/t39.30808-6/305278550_3250517231887618_4186015003750690835_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFCo9hKaTBmeEcikR-0PfiHd9xI92pe_Dx33Ej3al78PKVh4HEF3-M960rTgBTNlyCRhsJasgG7JwkAVF-Sg74E&_nc_ohc=C6FD5CwR7_oQ7kNvgE0V4qR&_nc_zt=23&_nc_ht=z-p3-scontent.flim4-2.fna&_nc_gid=A-QxXVW72m0_DPaXVPbzmX7&oh=00_AYCjfEsqANQmrQqhsUkrN7sqRxf0Jbuh79skitRKgiQMNQ&oe=66F940E5"
+                src="https://images.pexels.com/photos/27782182/pexels-photo-27782182/free-photo-of-moda-hombre-calle-arquitectura.jpeg"
                 alt="profile"
               />
             </figure>
